@@ -1,0 +1,194 @@
+# Agent Skills
+
+A collection of custom skills for AI agents.
+
+## Installation
+
+Install these skills with:
+
+```bash
+npx skills add renatocaliari/my-agent-skills
+```
+
+## About
+
+This repository contains skills published using [agent-sync](https://github.com/renatocaliari/agent-sync).
+
+## Skills
+
+### boilerplate-go
+
+**Go Web Application Boilerplate (v1.0.0 Ready)**
+
+Go boilerplate inspired by [Northstar](https://github.com/delaneyj/toolbelt), featuring:
+
+> ⚠️ **Datastar v1.0.0 Required** - This boilerplate uses Datastar v1.0.0 (not RC.8). See [Installation](#datastar-v100-installation) below.
+- **[Datastar](https://data-star.dev)** - Reactive hypermedia via SSE
+- **[Templ](https://templ.guide)** - Go components that generate HTML
+- **[DaisyUI + TailwindCSS](https://daisyui.com)** - UI components and styling...
+
+---
+
+### codebase-spec
+
+**Codebase → Product Spec**
+
+You are a senior product analyst reverse-engineering a product from its source code.
+Your job: produce a **living product specification** that is completely tech-stack-agnostic —
+so thorough that another team could rebuild the product in any language or framework.
+
+---
+
+**Phase 0 — Intake**
+
+Accept codebase via any of:
+- **Uploaded files / zip** → extract and explore with bash tools
+- **Pasted code snippets** → treat each as a module
+- **Filesystem path** → `find` + ...
+
+---
+
+### interface-brainstorming
+
+**Interface & Interaction Exploration**
+
+A skill for generating 4 distinct, creative interface proposals for any conceptual solution. Each proposal represents a different design philosophy, with detailed trade-off analysis, interaction breadboarding, ASCII wireframes, and ASCII flow diagrams.
+
+---
+**Activation Triggers (Universal)**
+Activate this skill automatically or when any of these signals appear:
+- Keywords / intents: "UI", "interface", "screen", "wireframe", "UX", "design alternatives", "...
+
+---
+
+### jtbd-skill
+
+**Jobs To Be Done — Complete Skill**
+
+This skill contains **10 specialized prompts** for conducting comprehensive Jobs To Be Done analyses.
+Each prompt corresponds to a specific step or dimension of the JTBD methodology.
+
+---
+
+**Prompt Map — When to Use Each**
+
+| # | Prompt | When to use |
+|---|--------|-------------|
+| 1 | **Contextual Segmentation** | Create market segments based on situational factors (not demographics) |
+| 2 | **Thinking Styles (Indi Young)** | Identify significantly differe...
+
+---
+
+### multi-method-market-analysis
+
+**Multi-Method Market Analysis**
+
+A skill for producing rigorous, structured market analysis using multiple complementary methodologies. Two prompt variants are available depending on the user's goal.
+
+---
+
+**Interaction Tool Guidelines**
+
+**IMPORTANT**: When the user needs to choose between predefined options, ALWAYS use the `question` tool (if available) with enumerated format:
+- Options with short `label` and `description`
+- Examples: variant selection (General Deep/Weekly Intelligence), topi...
+
+---
+
+### opportunity-mapping
+
+**Opportunity Mapping**
+
+A skill for generating structured strategic analyses that surface opportunities and ranked solutions from any business, product, or organizational input. Output is formatted in Confluence Wiki Markup for use in Confluence, Notion, or similar tools.
+
+---
+
+**Interaction Tool Guidelines**
+
+**IMPORTANT**: When the user needs to choose between predefined options, ALWAYS use the `question` tool (if available) with enumerated format:
+- Options with short `label` and `descriptio...
+
+---
+
+### questions-quality
+
+**Narrative Capture — Avaliação e Melhoria de Perguntas**
+
+Skill para avaliar se perguntas (e a **sequência** entre elas) em entrevistas, formulários e roteiros terapêuticos seguem os princípios de captação de narrativas e extração de significado. 
+
+A skill atua em duas dimensões:
+1. **Qualidade Individual:** A pergunta em si evita vieses, abstrações e defesas?
+2. **Qualidade do Sequenciamento:** A ordem das perguntas respeita o funcionamento da memória humana?
+
+---
+
+**🚨 ALERTA DE AMBIGUIDADE — ...
+
+---
+
+### shape-up-planning
+
+**Shape Up Planning Skill**
+
+You will act as a strategic product and design partner, combining the skills of a senior product strategist (Shape Up expert) and an experienced chief of design. Your goal is to transform a raw idea into a complete, clear, scoped work specification ready for development, acting as a collaborator who enriches and structures original ideas.
+
+**Activation Triggers (Universal)**
+Activate this skill automatically or when any of these signals are detected in the user promp...
+
+---
+
+### short-cycle-product
+
+**Product with Short Learning Cycles**
+
+This guide is a method to replace speculation with evidence, step by step.
+**Core principle**: experiment before building. Reduce uncertainty with small, fast, and cheap experiments.
+
+> "Life is too short to build something that nobody wants." — Ash Maurya
+
+**Method Structure**
+
+The process has **8 stages** (not necessarily linear):
+1. Find and understand the audience
+2. Define the market
+3. Define and prioritize solutions
+4. Develop and evaluate the offer...
+
+---
+
+### starhtml
+
+**StarHTML — Core Skill**
+
+StarHTML = Python objects that compile to reactive Datastar HTML.
+
+**After generating any component, validate with:** `starhtml-check <file.py>`
+
+> If `starhtml-check` is not installed:
+> ```bash
+> curl -L https://raw.githubusercontent.com/renatocaliari/starhtml-skill/main/starhtml_check.py \
+>   -o /usr/local/bin/starhtml-check && chmod +x /usr/local/bin/starhtml-check
+> ```
+
+> **UI Components:** For production-ready UI, use **[StarUI](https://ui.starhtml.com/)** — sh...
+
+---
+
+### tech-planning-sequencing
+
+**When to use this skill**
+
+Use this skill when you need to:
+- Plan the implementation sequence for a new feature or PRD
+- Decompose tasks into a risk-aware development order
+- Identify critical spikes before implementation
+- Structure work into scopes with clear Definition of Done
+
+**When NOT to use this skill**
+
+- For simple, well-understood tasks that don't need sequencing
+- When the user asks for code implementation directly (switch to Code mode)
+- For architectural decisions without task br...
+
+---
+
